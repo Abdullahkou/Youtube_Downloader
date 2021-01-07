@@ -1,5 +1,5 @@
 from pytube import YouTube
-""" link ='https://www.youtube.com/watch?v=8Z1eMy2FoX4&ab_channel=Arc%27teryx' """
+""" link ='https://www.youtube.com/watch?v=8Z1eMy2FoX4&ab_channel=Arc%27teryx' """ """  pyinstaller --onefile 'Downloader.py'  """
 link = input("video-Url eingeben: ")
 video = YouTube(link)
 print(f"Titel is:  {video.title}") 
